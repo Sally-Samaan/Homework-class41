@@ -1,0 +1,20 @@
+2022-11-08 10:08:33 info: ----------------------------------------------
+2022-11-08 10:08:33 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-11-08 10:08:33 info: ----------------------------------------------
+2022-11-08 10:08:34 info: All unit tests passed.
+2022-11-08 10:08:36 info: All steps were completed successfully
+2022-11-08 10:09:18 info: ----------------------------------------
+2022-11-08 10:09:18 info: >>> Running Unit Test `ex2-dogYears` <<<
+2022-11-08 10:09:18 info: ----------------------------------------
+2022-11-08 10:09:18 info: All unit tests passed.
+2022-11-08 10:09:20 info: All steps were completed successfully
+2022-11-08 10:10:13 info: -------------------------------------------
+2022-11-08 10:10:13 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-11-08 10:10:13 info: -------------------------------------------
+2022-11-08 10:10:14 info: All unit tests passed.
+2022-11-08 10:10:15 info: All steps were completed successfully
+2022-11-08 10:11:02 info: --------------------------------------------
+2022-11-08 10:11:02 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2022-11-08 10:11:02 info: --------------------------------------------
+2022-11-08 10:11:02 warn: A unit test file was not provided.
+2022-11-08 10:11:03 info: All steps were completed successfully
