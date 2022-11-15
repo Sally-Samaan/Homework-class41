@@ -17,15 +17,8 @@ it pure. Do the following:
 ------------------------------------------------------------------------------*/
 // ! Function under test
 function addToShoppingCart(shoppingCart, groceryItem) {
-  const newShoppingCart = [...shoppingCart];
-  newShoppingCart.push(groceryItem);
-
-  if (newShoppingCart.length > 3) {
-    newShoppingCart.shift();
-  }
-
-  console.log(newShoppingCart);
-  return newShoppingCart;
+  const newShoppingCart = [...shoppingCart, groceryItem];
+  return newShoppingCart > 4;
 }
 
 // ! Test functions (plain vanilla JavaScript)

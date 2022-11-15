@@ -21,20 +21,19 @@ instead!
 3. Complete the unit test functions and verify that all is working as expected.
 -----------------------------------------------------------------------------*/
 const cartForParty = {
-  beer: 6,
-  chips: 4.5,
-  nuts: 6,
-  crackers: 3,
-  cheese: 5,
+  beer: 5,
+  chips: 2,
+  dip: 3.5,
+  cookies: 4.7,
+  carrots: 1.5,
 };
 
-function calculateTotalPrice(price) {
-  const values = Object.values(price);
+function calculateTotalPrice(total) {
+  const price = Object.values(total);
 
-  const amount = values.reduce((accumulator, value) => {
+  const amount = price.reduce((accumulator, value) => {
     return accumulator + value;
   }, 0);
-
   return `Total: €${amount}`;
 }
 
